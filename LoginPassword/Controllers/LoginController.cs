@@ -13,6 +13,7 @@ namespace LoginPassword.Controllers
     [ApiController]
     public class LoginController : ControllerBase
     {
+        //context class
         private readonly ContextClass _context;
 
         public LoginController(ContextClass context)
