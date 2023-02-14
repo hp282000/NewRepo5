@@ -13,6 +13,8 @@ builder.Services.AddDbContext<ContextClass>(options => options.UseSqlServer(buil
 
 // Add services to the container.
 //commet add by tushar
+//commet add by tushar
+//commet add by tushar
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
