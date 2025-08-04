@@ -1,0 +1,65 @@
+#Square numbers using map
+#inputNumbers = [1,2,3,4]
+#squareNumbers = list(map(lambda x:x**2 , inputNumbers))
+#print(squareNumbers)
+
+#Filter even numbers using filter
+#inputNumbers = [1,2,3,4,5]
+#filterEvenNumbers = list(filter(lambda x: x%2 == 0,inputNumbers))
+#print(filterEvenNumbers)
+
+#Sum all even numbers
+#from functools import reduce
+#inputNumbers = [1,2,3,4,5]
+#sumOfNumbers = reduce(lambda x,y: x + y ,inputNumbers)
+#print(sumOfNumbers)
+
+#combine example
+#from functools import reduce
+#data = ['10', '20', '', '30', 'not-a-number']
+#filerExample = filter(lambda x: x.isdigit(), data)
+#mapExample = map(lambda x:int(x),filerExample)
+
+#reduceExample = reduce(lambda x,y: x+y,mapExample)
+#print(reduceExample)
+
+
+#List Comprehensions
+
+#create List of square
+#listOfSquare = [x**2 for x in range(5)]
+#print(listOfSquare)
+
+
+#normal function
+#newList=[]
+#for i in range(5):
+#    x=i**2
+#    newList.append(x)
+
+#print(newList)
+
+#Filter even numbers
+#inputNumbers = [1,2,3,4,5]
+#filterNumbers = [item for item in inputNumbers if item % 2 == 0]
+
+#print(filterNumbers)
+
+#Dictionary Comprehension
+#create dictionary of square
+#inputNumbers = [1,2,3,4,5]
+#squareDictionary = {x:x**2 for x in inputNumbers}
+#print(squareDictionary)
+
+#create dictionary of square
+#inputNumbers = [1,2,3,4,5]
+#y=1
+#squareDictionary = {y:x**2 for x in inputNumbers}
+#print(squareDictionary)
+
+
+
+
+
+
+
