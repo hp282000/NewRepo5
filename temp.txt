@@ -1,0 +1,115 @@
+#-------------------------------------------------------------------------
+
+#Create a list of squares
+#inputList = [1,2,3,4]
+#squareList = [x**2 for x in inputList]
+#print(squareList)
+
+#-------------------------------------------------------------------------
+
+#Filter Even Numbers
+#inputList = [1,2,3,4,5]
+#filterEvenNumbers= [x for x in inputList if x%2== 0]
+#print(filterEvenNumbers)
+
+#-------------------------------------------------------------------------
+
+#Clean a list of strings and lower
+#inputList = [' Alice ', 'BOB', '   Eve']
+#claanAndLowerList = [x.strip().lower() for x in inputList ]
+#print(claanAndLowerList)
+
+#-------------------------------------------------------------------------
+
+#Create a dictionary of squares
+#inputList = [1,2,3,4]
+#squareList = {x: x**2 for x in inputList}
+#print(squareList)
+
+#-------------------------------------------------------------------------
+
+#Filter and modify a dictionary
+#original = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+#filterEvenNumbers = {k : v*10 for k , v in original.items() if v % 2==0 }
+#print(filterEvenNumbers)
+
+#-------------------------------------------------------------------------
+
+#original = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+#filterEvenNumbers = {k  for k in original.items()}
+#filterEvenNumbers = [x for x in original.keys()]
+#print(filterEvenNumbers)
+
+#-------------------------------------------------------------------------
+
+#Select players with runs > 40 and give them 10 bonus marks.
+#players = [
+#    {"name": "Rajat", "runs": 38},
+#    {"name": "Virat", "runs": 45},
+#    {"name": "Rohit", "runs": 52},
+#]
+#output [{'name': 'Virat', 'runs': 45}, {'name': 'Rohit', 'runs': 52}]
+
+#steps to solve
+
+#step 1 display list of players
+#filterPlayers = [player for player in players]
+#print(filterPlayers)
+
+#step 2 filter less then 40 runs players
+
+#filterPlayers = [player for player in players if player['runs'] > 40 ]
+#print(filterPlayers)
+
+
+#step 3 filter less then 40 runs players
+#filterPlayers = [player for player in players if player['runs'] > 40 ]
+#print(filterPlayers)
+
+
+#step 4 add 10 bonus marks.
+#filterPlayers = [{player['name'] : player['runs'] } for player in players if player['runs'] > 40 ]
+#print(filterPlayers)
+
+
+#-------------------------------------------------------------------------
+#nestedArray = [[1, 2], [3, 4], [5]]
+#flatArray = [res for array in nestedArray for res in array]
+#print(flatArray)
+
+#-------------------------------------------------------------------------
+#dictionary of  even numbers (number, square)
+#inputList = [1,2,3,4,5,6,7,8]
+#dictionaryList = {newList:newList**2  for newList in inputList if newList%2 ==0}
+#print(dictionaryList)
+
+#output {2: 4, 4: 16, 6: 36, 8: 64}
+
+#-------------------------------------------------------------------------
+#List of tuples (number, square) for even numbers
+#inputList = [1,2,3,4,5,6,7,8]
+#oddNumbers = [newList for newList in inputList if newList%2 != 0]
+#convertInTuple = [(tupleList,tupleList**2) for tupleList in oddNumbers ]
+#print(convertInTuple)
+
+#output [(2, 4), (4, 16), (6, 36), (8, 64)]
+#-------------------------------------------------------------------------
+#matrix transform
+#matrix = [[1, 2, 3], [4, 5, 6]]
+#newList = [[row[i] for row in matrix] for i in range(len(matrix[0]))]
+
+#print(newList)
+#output [[1, 4], [2, 5], [3, 6]]
+
+#-------------------------------------------------------------------------
+
+#words = ['apple', 'ant', 'banana', 'bat', 'cat']
+#grouped = {ch: [x for x in words if x.startswith(ch)] for ch in (w[0] for w in words)}
+#print(grouped)
+
+#output {'a': ['apple', 'ant'], 'b': ['banana', 'bat'], 'c': ['cat']}
+
+
+
+
+
